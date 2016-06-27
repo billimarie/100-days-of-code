@@ -1,30 +1,23 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1: June 27th 2016
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+#### Today's Progress
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+###### portfolio
+- new favicon
+- updated section scroll onclick with [AnimateScroll](http://plugins.compzets.com/animatescroll/)
+- added [100 Days of Code](http://www.billimarie.com/portfolio/doc.html) page
+- created 100 Days of Code graphic
 
-**Link to work:** [Calculator App](http://www.example.com)
+###### misc
+- updated resources on [100 days of code repo](https://github.com/Kallaway/100-days-of-code/pull/2)
+- updated Trello cards
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+#### Thoughts
+Now that I've got a homebase, it's nice to be doing work, again. I know the pitfalls of not practicing code; the 100 days idea is great for keeping your skills up when you're working on other projects. For now, I'm just using this as a way to improve my portfolio and resume, but I'd like to go back to my list of projects to one day build out (including [Pipe Dream Tactics](http://pipedreamtactics.wordpress.com)).
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+#### Link(s) to work
 
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
-
-**Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+1. [Resume](https://www.billimarie.com/portfolio/cv.html)
+2. [Portfolio](https://www.billimarie.com/portfolio)
