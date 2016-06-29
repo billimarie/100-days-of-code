@@ -21,3 +21,20 @@ Now that I've got a homebase, it's nice to be doing work, again. I know the pitf
 
 1. [Resume](https://www.billimarie.com/portfolio/cv.html)
 2. [Portfolio](https://www.billimarie.com/portfolio)
+
+### Day 2: June 28th 2016
+
+#### Today's Progress
+
+- div overlay on full-screen YT video
+- researched YT API
+
+###### 360&deg; YouTube Video Embeds + three.js
+Just messing around. Trying to see if there's a way to manipulate the 360 controller. Searched the YT API but it seems like that functionality isn't available, yet. Ideally would like to disable the mousedown / drag function and create a camera that follows mouse movement.
+
+#### Thoughts
+today was a hot day. disheartened over lack of support for 360&deg; functionality (re: YouTube).
+
+#### Link(s) to work
+
+1. local
