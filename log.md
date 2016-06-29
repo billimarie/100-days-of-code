@@ -38,3 +38,19 @@ today was a hot day. disheartened over lack of support for 360&deg; functionalit
 #### Link(s) to work
 
 1. local
+
+### Day 3: June 29th 2016
+
+#### Today's Progress
+
+###### Portfolio
+- avatar animation (css)
+- button changes
+- design: color scheme
+
+#### Thoughts
+Coding while watching Scandal.
+
+#### Link(s) to work
+
+1. [Portfolio](https://www.billimarie.com/portfolio)
