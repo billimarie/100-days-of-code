@@ -54,3 +54,20 @@ Coding while watching Scandal.
 #### Link(s) to work
 
 1. [Portfolio](https://www.billimarie.com/portfolio)
+
+### Day 4: June 30th 2016
+
+#### Today's Progress
+
+###### WebVR
+Just research.
+
+###### Portfolio
+More changes.
+
+#### Thoughts
+Finding I need to update my old systems...someone broke my most recent laptop, so I've been using old (very old) gear.
+
+#### Link(s) to work
+
+1. [Portfolio](https://www.billimarie.com/portfolio)
