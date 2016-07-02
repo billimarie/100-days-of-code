@@ -22,6 +22,8 @@ Now that I've got a homebase, it's nice to be doing work, again. I know the pitf
 1. [Resume](https://www.billimarie.com/portfolio/cv.html)
 2. [Portfolio](https://www.billimarie.com/portfolio)
 
+===
+
 ### Day 2: June 28th 2016
 
 #### Today's Progress
@@ -39,6 +41,8 @@ today was a hot day. disheartened over lack of support for 360&deg; functionalit
 
 1. local
 
+===
+
 ### Day 3: June 29th 2016
 
 #### Today's Progress
@@ -54,6 +58,8 @@ Coding while watching Scandal.
 #### Link(s) to work
 
 1. [Portfolio](https://www.billimarie.com/portfolio)
+
+===
 
 ### Day 4: June 30th 2016
 
@@ -71,3 +77,22 @@ Finding I need to update my old systems...someone broke my most recent laptop, s
 #### Link(s) to work
 
 1. [Portfolio](https://www.billimarie.com/portfolio)
+
+===
+
+### Day 5: July 1st 2016
+
+#### Today's Progress
+
+###### Pipe Dream Tactics
+- heroku / github setup
+- markdown
+- css
+- restructuring & reorganizing project goals
+
+#### Thoughts
+Really need my laptop, back. Feeling like a lame duck in the water without my dev environment.
+
+#### Link(s) to work
+
+1. [Pipe Dream Tactics](https://calm-wildwood-8850.herokuapp.com/about)
