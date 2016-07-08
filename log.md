@@ -96,3 +96,30 @@ Really need my laptop, back. Feeling like a lame duck in the water without my de
 #### Link(s) to work
 
 1. [Pipe Dream Tactics](https://calm-wildwood-8850.herokuapp.com/about)
+
+===
+
+### Day 6: July 7th 2016
+
+#### Today's Progress
+
+###### Girl Develop It
+![fixed-color-palette](https://cloud.githubusercontent.com/assets/6895471/16677132/11c4ecac-4487-11e6-8721-a719964c22bc.png)
+
+Worked on an issue with the [Girl Develop It](https://github.com/girldevelopit) website style guide [repo](https://github.com/girldevelopit/gdi-website-styleguide):
+- [fixed color palette](https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797)
+
+###### Portfolio
+
+- updated the Pipe Dream Tactics page
+- fixed scrolling links on cv.html
+- updated css, text, images
+- updated Typewriter Poetry section
+
+#### Thoughts
+Still waiting for Apple to fix my laptop. The good news is I've been getting reacquainted with Windows' Command Line and Notepad...
+
+#### Link(s) to work
+
+1. [Girl Develop It](https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797)
+2. [Portfolio](https://www.billimarie.com/portfolio)
