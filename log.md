@@ -123,3 +123,22 @@ Still waiting for Apple to fix my laptop. The good news is I've been getting rea
 
 1. [Girl Develop It](https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797)
 2. [Portfolio](https://www.billimarie.com/portfolio)
+
+===
+
+### Day 7: July 10th 2016
+
+#### Today's Progress
+
+###### CSS Animations
+- multimedia poem
+- shadows, position, & color transitions
+
+#### Thoughts
+Laptop is 'fixed'. Hardware's good but still having some random shut off issues...thanks, Apple.
+
+Working on a multimedia poetry project; CSS3 & JS for the titles are finished, plus spacing for the poem itself. Just need to figure out what the main text should do.
+
+#### Link(s) to work
+
+1. local
