@@ -4,13 +4,13 @@
 
 #### Today's Progress
 
-###### portfolio
+##### portfolio
 - new favicon
 - updated section scroll onclick with [AnimateScroll](http://plugins.compzets.com/animatescroll/)
 - added [100 Days of Code](http://www.billimarie.com/portfolio/doc.html) page
 - created 100 Days of Code graphic
 
-###### misc
+##### misc
 - updated resources on [100 days of code repo](https://github.com/Kallaway/100-days-of-code/pull/2)
 - updated Trello cards
 
@@ -31,7 +31,7 @@ Now that I've got a homebase, it's nice to be doing work, again. I know the pitf
 - div overlay on full-screen YT video
 - researched YT API
 
-###### 360&deg; YouTube Video Embeds + three.js
+##### 360&deg; YouTube Video Embeds + three.js
 Just messing around. Trying to see if there's a way to manipulate the 360 controller. Searched the YT API but it seems like that functionality isn't available, yet. Ideally would like to disable the mousedown / drag function and create a camera that follows mouse movement.
 
 #### Thoughts
@@ -47,7 +47,7 @@ today was a hot day. disheartened over lack of support for 360&deg; functionalit
 
 #### Today's Progress
 
-###### Portfolio
+##### Portfolio
 - avatar animation (css)
 - button changes
 - design: color scheme
@@ -65,10 +65,10 @@ Coding while watching Scandal.
 
 #### Today's Progress
 
-###### WebVR
+##### WebVR
 Just research.
 
-###### Portfolio
+##### Portfolio
 More changes.
 
 #### Thoughts
@@ -84,7 +84,7 @@ Finding I need to update my old systems...someone broke my most recent laptop, s
 
 #### Today's Progress
 
-###### Pipe Dream Tactics
+##### Pipe Dream Tactics
 - heroku / github setup
 - markdown
 - css
@@ -103,13 +103,13 @@ Really need my laptop, back. Feeling like a lame duck in the water without my de
 
 #### Today's Progress
 
-###### Girl Develop It
+##### Girl Develop It
 ![fixed-color-palette](https://cloud.githubusercontent.com/assets/6895471/16677132/11c4ecac-4487-11e6-8721-a719964c22bc.png)
 
 Worked on an issue with the [Girl Develop It](https://github.com/girldevelopit) website style guide [repo](https://github.com/girldevelopit/gdi-website-styleguide):
 - [fixed color palette](https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797)
 
-###### Portfolio
+##### Portfolio
 
 - updated the Pipe Dream Tactics page
 - fixed scrolling links on cv.html
@@ -130,7 +130,7 @@ Still waiting for Apple to fix my laptop. The good news is I've been getting rea
 
 #### Today's Progress
 
-###### CSS Animations
+##### CSS Animations
 - multimedia poem
 - shadows, position, & color transitions
 
@@ -142,3 +142,41 @@ Working on a multimedia poetry project; CSS3 & JS for the titles are finished, p
 #### Link(s) to work
 
 1. local
+
+===
+
+### Day 8: July 12th 2016
+
+#### Today's Progress
+
+##### Spot the Docs
+- dev env setup
+
+#### Thoughts
+Setting up my dev environment has become a lot easier over the years. I remember when it used to take me an entire day. Guess practice really does make things less burdensome.
+
+#### Link(s) to work
+
+1. local
+
+===
+
+### Day 9: July 13th 2016
+
+#### Today's Progress
+
+##### Spot the Docs
+- pushed to [Heroku](https://floating-citadel-84168.herokuapp.com/)
+- pushed to [GitHub](https://github.com/billimarie/spot-the-docs)
+
+#### Thoughts
+It sucks to get stumped on such simple stuff. I'm studying for the LSAT and there is a definite connect between the type of logic it tests and coding. One wrong misstep can lead down a rabbit hole of bad decisions. Today was that kind of day. But at least I can take steps to see what went wrong, and where.
+
+I'm making the decision to work on the fundamentals. Practice makes perfect...or maybe just less rabbit holes.
+
+...& when did GitHub update their fonts!? :o
+
+#### Link(s) to work
+
+1. [Spot the Docs - GitHub](https://github.com/billimarie/spot-the-docs)
+2. [Spot the Docs - Heroku](https://floating-citadel-84168.herokuapp.com/)
