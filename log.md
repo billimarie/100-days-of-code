@@ -183,3 +183,24 @@ I'm making the decision to work on the fundamentals. Practice makes perfect...or
 
 1. [Spot the Docs - GitHub](https://github.com/billimarie/spot-the-docs)
 2. [Spot the Docs - Heroku](https://floating-citadel-84168.herokuapp.com/)
+
+===
+
+![screen shot 2016-07-14 at 1 55 05 pm](https://cloud.githubusercontent.com/assets/6895471/16855615/f4b096d6-49ca-11e6-9cb8-c6b9fb68acee.png)
+
+## Day 10: July 14th 2016
+
+### Today's Progress
+
+#### Spot the Docs
+- setup MkDocs
+- figured out gh-pages
+
+### Thoughts
+Keep forgetting that I renamed GitHub's remote `origin` to `github`, so I don't confuse myself with remote `heroku`.
+
+MkDocs' built-in devserver (`mkdocs serve`) is a lot of fun. Auto-reload! It's like instant render 💞
+
+### Link(s) to work
+
+1. [GitHub.io Pages](https://billimarie.github.io/spot-the-docs/)
