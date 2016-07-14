@@ -130,7 +130,10 @@ Still waiting for Apple to fix my laptop. The good news is I've been getting rea
 
 ### Today's Progress
 
+![tetronimoes_animated_billimarie](https://cloud.githubusercontent.com/assets/6895471/16830649/0c8d12e6-4955-11e6-8fb5-401bcfe0b089.gif)
+
 #### CSS Animations
+Inspired by an old poetry collection I wrote called Tetronimoes. Wanted to see if a multimedia poem would be the best fit for a revised edition.
 - multimedia poem
 - shadows, position, & color transitions
 
@@ -141,7 +144,9 @@ Working on a multimedia poetry project; CSS3 & JS for the titles are finished, p
 
 ### Link(s) to work
 
-1. local
+1. [screenshot](https://cloud.githubusercontent.com/assets/6895471/16830649/0c8d12e6-4955-11e6-8fb5-401bcfe0b089.gif)
+2. [CodePen](https://codepen.io/billimarie/pen/wWpvjV)
+3. [GitHub gist](https://gist.github.com/billimarie/a0ec7208f8e50b00f91b8de6f13bbefe)
 
 ===
 
