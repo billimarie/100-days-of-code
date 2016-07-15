@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>#100DaysOfCode - Billimarie Lubiano Robinson</title>
+    <description>I&#39;m participating in #100DaysOfCode.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 14 Jul 2016 18:13:30 -0700</pubDate>
+    <lastBuildDate>Thu, 14 Jul 2016 18:13:30 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>10 / 100</title>
+        <description>&lt;p&gt;##Thoughts&lt;/p&gt;
+
+&lt;p&gt;After creating a project page for &lt;strong&gt;Spot the Docs&lt;/strong&gt;, I decided to make one for the #100DaysOfCode challenge. I chose Jekyll because of its widespread adoption and its reputation for syncing with GitHub.&lt;/p&gt;
+
+&lt;p&gt;This will be much cleaner than re-editing log.md every so often.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Keep forgetting that I renamed GitHub’s remote &lt;code class=&quot;highlighter-rouge&quot;&gt;origin&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;github&lt;/code&gt; so I don’t confuse myself with remote &lt;code class=&quot;highlighter-rouge&quot;&gt;heroku&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;MkDocs’ built-in devserver (&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdocs serve&lt;/code&gt;) is a lot of fun. Auto-reload! It’s like instant render 💞&lt;/p&gt;
+
+&lt;p&gt;Not a fan of Jekyll’s, as I have to keep shutting down the server and restart whenever I make config changes…plus it’s not instantaneous.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;todays-projects&quot;&gt;Today’s Projects&lt;/h2&gt;
+
+&lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;setup MkDocs&lt;/li&gt;
+  &lt;li&gt;figured out gh-pages&lt;/li&gt;
+  &lt;li&gt;setup Jekyll&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Spot the Docs: &lt;a href=&quot;http://billimarie.github.io/spot-the-docs&quot;&gt;GitHub Page&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;#100DaysOfCode: &lt;a href=&quot;http://billimarie.github.io/100-days-of-code&quot;&gt;GitHub Page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 14 Jul 2016 14:26:27 -0700</pubDate>
+        <link>/day/10</link>
+        <guid isPermaLink="true">/day/10</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>9 / 100</title>
+        <description>&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;It sucks to get stumped on such simple stuff. I’m studying for the LSAT and there is a definite connect between the type of logic it tests and coding. One wrong misstep can lead down a rabbit hole of bad decisions. Today was that kind of day. But at least I can take steps to see what went wrong, and where.&lt;/p&gt;
+
+&lt;p&gt;I’m making the decision to work on the fundamentals. Practice makes perfect…or maybe just less rabbit holes.&lt;/p&gt;
+
+&lt;p&gt;…&amp;amp; when did GitHub update their fonts!? :o&lt;/p&gt;
+
+&lt;h2 id=&quot;todays-projects&quot;&gt;Today’s Projects&lt;/h2&gt;
+
+&lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;pushed to &lt;a href=&quot;https://floating-citadel-84168.herokuapp.com/&quot;&gt;Heroku&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;pushed to &lt;a href=&quot;https://github.com/billimarie/spot-the-docs&quot;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/billimarie/spot-the-docs&quot;&gt;Spot the Docs - GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://floating-citadel-84168.herokuapp.com/&quot;&gt;Spot the Docs - Heroku&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 13 Jul 2016 11:26:27 -0700</pubDate>
+        <link>/day/9</link>
+        <guid isPermaLink="true">/day/9</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>8 / 100</title>
+        <description>&lt;p&gt;Setting up my dev environment has become a lot easier over the years. I remember when it used to take me an entire day. Guess practice really does make things less burdensome.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://floating-citadel-84168.herokuapp.com&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16829171/6eff1316-494b-11e6-94bb-7f01a90fe1df.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;todays-projects&quot;&gt;Today’s Projects&lt;/h2&gt;
+
+&lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;dev env setup&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 12 Jul 2016 14:26:27 -0700</pubDate>
+        <link>/day/8</link>
+        <guid isPermaLink="true">/day/8</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>7 / 100</title>
+        <description>&lt;p&gt;Laptop is ‘fixed’. Hardware’s good but still having some random shut off issues…thanks, Apple.&lt;/p&gt;
+
+&lt;p&gt;Working on a multimedia poetry project; CSS3 &amp;amp; JS for the titles are finished, plus spacing for the poem itself. Just need to figure out what the main text should do.&lt;/p&gt;
+
+&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://codepen.io/billimarie/pen/wWpvjV&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16830649/0c8d12e6-4955-11e6-8fb5-401bcfe0b089.gif&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;css-animations&quot;&gt;CSS Animations&lt;/h3&gt;
+&lt;p&gt;Inspired by an old poetry collection I wrote called Tetronimoes. Wanted to see if a multimedia poem would be the best fit for a revised edition.
+- multimedia poem
+- shadows, position, &amp;amp; color transitions&lt;/p&gt;
+
+&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://cloud.githubusercontent.com/assets/6895471/16830649/0c8d12e6-4955-11e6-8fb5-401bcfe0b089.gif&quot;&gt;screenshot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codepen.io/billimarie/pen/wWpvjV&quot;&gt;CodePen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/billimarie/a0ec7208f8e50b00f91b8de6f13bbefe&quot;&gt;GitHub gist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 10 Jul 2016 14:26:27 -0700</pubDate>
+        <link>/day/7</link>
+        <guid isPermaLink="true">/day/7</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>6 / 100</title>
+        <description>&lt;p&gt;Still waiting for Apple to fix my laptop. The good news is I’ve been getting reacquainted with Windows’ Command Line and Notepad…&lt;/p&gt;
+
+&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
+
+&lt;h3 id=&quot;girl-develop-it&quot;&gt;Girl Develop It&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16677132/11c4ecac-4487-11e6-8721-a719964c22bc.png&quot; alt=&quot;fixed-color-palette&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Worked on an issue with the &lt;a href=&quot;https://github.com/girldevelopit&quot;&gt;Girl Develop It&lt;/a&gt; website style guide &lt;a href=&quot;https://github.com/girldevelopit/gdi-website-styleguide&quot;&gt;repo&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797&quot;&gt;fixed color palette&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;updated the Pipe Dream Tactics page&lt;/li&gt;
+  &lt;li&gt;fixed scrolling links on cv.html&lt;/li&gt;
+  &lt;li&gt;updated css, text, images&lt;/li&gt;
+  &lt;li&gt;updated Typewriter Poetry section&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797&quot;&gt;Girl Develop It&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 07 Jul 2016 12:42:27 -0700</pubDate>
+        <link>/day/6</link>
+        <guid isPermaLink="true">/day/6</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>5 / 100</title>
+        <description>&lt;p&gt;Really need my laptop, back. Feeling like a lame duck in the water without my dev environment.&lt;/p&gt;
+
+&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
+
+&lt;h3 id=&quot;pipe-dream-tactics&quot;&gt;Pipe Dream Tactics&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;heroku / github setup&lt;/li&gt;
+  &lt;li&gt;markdown&lt;/li&gt;
+  &lt;li&gt;css&lt;/li&gt;
+  &lt;li&gt;restructuring &amp;amp; reorganizing project goals&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://calm-wildwood-8850.herokuapp.com/about&quot;&gt;Pipe Dream Tactics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 02 Jul 2016 14:42:27 -0700</pubDate>
+        <link>/day/5</link>
+        <guid isPermaLink="true">/day/5</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>4 / 100</title>
+        <description>&lt;h2 id=&quot;day-4-june-30th-2016&quot;&gt;Day 4: June 30th 2016&lt;/h2&gt;
+
+&lt;h3 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h3&gt;
+
+&lt;h4 id=&quot;webvr&quot;&gt;WebVR&lt;/h4&gt;
+&lt;p&gt;Just research.&lt;/p&gt;
+
+&lt;h4 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h4&gt;
+&lt;p&gt;More changes.&lt;/p&gt;
+
+&lt;h3 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h3&gt;
+&lt;p&gt;Finding I need to update my old systems…someone broke my most recent laptop, so I’ve been using old (very old) gear.&lt;/p&gt;
+
+&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;===&lt;/p&gt;
+</description>
+        <pubDate>Thu, 30 Jun 2016 14:26:27 -0700</pubDate>
+        <link>/day/4</link>
+        <guid isPermaLink="true">/day/4</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>3 / 100</title>
+        <description>&lt;p&gt;Coding while watching &lt;em&gt;Scandal&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;avatar animation (css)&lt;/li&gt;
+  &lt;li&gt;button changes&lt;/li&gt;
+  &lt;li&gt;design: color scheme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 29 Jun 2016 14:26:27 -0700</pubDate>
+        <link>/day/3</link>
+        <guid isPermaLink="true">/day/3</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>2 / 100</title>
+        <description>&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;div overlay on full-screen YT video&lt;/li&gt;
+  &lt;li&gt;researched YT API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;deg-youtube-video-embeds--threejs&quot;&gt;360° YouTube Video Embeds + three.js&lt;/h3&gt;
+&lt;p&gt;Just messing around. Trying to see if there’s a way to manipulate the 360 controller. Searched the YT API but it seems like that functionality isn’t available, yet. Ideally would like to disable the mousedown / drag function and create a camera that follows mouse movement.&lt;/p&gt;
+
+&lt;p&gt;today was a hot day. disheartened over lack of support for 360° functionality (re: YouTube).&lt;/p&gt;
+
+&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;local&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 28 Jun 2016 14:26:27 -0700</pubDate>
+        <link>/day/2</link>
+        <guid isPermaLink="true">/day/2</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>1 / 100</title>
+        <description>&lt;p&gt;Now that I’ve got a homebase, it’s nice to be doing work, again. I know the pitfalls of not practicing code; the 100 days idea is great for keeping your skills up when you’re working on other projects. For now, I’m just using this as a way to improve my portfolio and resume, but I’d like to go back to my list of projects to one day build out (including &lt;a href=&quot;http://pipedreamtactics.wordpress.com&quot;&gt;Pipe Dream Tactics&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;new favicon&lt;/li&gt;
+  &lt;li&gt;updated section scroll onclick with &lt;a href=&quot;http://plugins.compzets.com/animatescroll/&quot;&gt;AnimateScroll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;added &lt;a href=&quot;http://www.billimarie.com/portfolio/doc.html&quot;&gt;100 Days of Code&lt;/a&gt; page&lt;/li&gt;
+  &lt;li&gt;created 100 Days of Code graphic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;misc&quot;&gt;Misc&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;updated resources on &lt;a href=&quot;https://github.com/Kallaway/100-days-of-code/pull/2&quot;&gt;100 days of code repo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;updated Trello cards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio/cv.html&quot;&gt;Resume&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 27 Jun 2016 14:26:27 -0700</pubDate>
+        <link>/day/1</link>
+        <guid isPermaLink="true">/day/1</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+  </channel>
+</rss>
