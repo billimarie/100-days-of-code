@@ -2,6 +2,8 @@
 
 View my progress at [#100DaysOfCode: GitHub Pages](https://billimarie.github.io/100-days-of-code)
 
+![https://billimarie.github.io/100-days-of-code](https://pbs.twimg.com/media/CnX78eQUkAAuU2_.jpg:large)
+
 <br />
 
 ---
