@@ -1,8 +1,17 @@
 # I've joined the #100DaysOfCode Challenge.
 
+View my progress at [#100DaysOfCode: GitHub Pages](https://billimarie.github.io/100-days-of-code)
+
+<br />
+
+---
+
+<br />
+
 ## Contents
+* [Blog](https://billimarie.github.io/100-days-of-code) (view my progress)
 * [Rules](rules.md)
-* [Log - click here to see my progress](log.md)
+* [Log](log.md)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
 
