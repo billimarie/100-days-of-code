@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "5 / 100"
+date:   2016-07-02 14:42:27 -0700
+categories: day
+---
+
+Really need my laptop, back. Feeling like a lame duck in the water without my dev environment.
+
+## Today's Progress
+
+### Pipe Dream Tactics
+- heroku / github setup
+- markdown
+- css
+- restructuring & reorganizing project goals
+
+### Link(s) to work
+
+- [Pipe Dream Tactics](https://calm-wildwood-8850.herokuapp.com/about)

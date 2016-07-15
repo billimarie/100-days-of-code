@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "10 / 100"
+date:   2016-07-14 14:26:27 -0700
+categories: day
+---
+
+##Thoughts
+
+After creating a project page for **Spot the Docs**, I decided to make one for the #100DaysOfCode challenge. I chose Jekyll because of its widespread adoption and its reputation for syncing with GitHub.
+
+This will be much cleaner than re-editing log.md every so often.
+
+---
+
+Keep forgetting that I renamed GitHub's remote `origin` to `github` so I don't confuse myself with remote `heroku`.
+
+MkDocs' built-in devserver (`mkdocs serve`) is a lot of fun. Auto-reload! It's like instant render 💞
+
+Not a fan of Jekyll's, as I have to keep shutting down the server and restart whenever I make config changes...plus it's not instantaneous.
+
+<br />
+
+## Today's Projects
+
+### Spot the Docs
+
+- setup MkDocs
+- figured out gh-pages
+- setup Jekyll
+
+### Links
+
+- Spot the Docs: [GitHub Page](http://billimarie.github.io/spot-the-docs)
+- #100DaysOfCode: [GitHub Page](http://billimarie.github.io/100-days-of-code)

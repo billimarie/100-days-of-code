@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "3 / 100"
+date:   2016-06-29 14:26:27 -0700
+categories: day
+---
+
+Coding while watching *Scandal*.
+
+### Portfolio
+
+- avatar animation (css)
+- button changes
+- design: color scheme
+
+### Link(s) to work
+
+- [Portfolio](https://www.billimarie.com/portfolio)

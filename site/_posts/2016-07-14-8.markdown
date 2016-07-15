@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "8 / 100"
+date:   2016-07-12 14:26:27 -0700
+categories: day
+---
+
+Setting up my dev environment has become a lot easier over the years. I remember when it used to take me an entire day. Guess practice really does make things less burdensome.
+
+<p style="text-align: center"><a href="https://floating-citadel-84168.herokuapp.com"><img src="https://cloud.githubusercontent.com/assets/6895471/16829171/6eff1316-494b-11e6-94bb-7f01a90fe1df.png" /></a></p>
+
+## Today's Projects
+
+### Spot the Docs
+- dev env setup

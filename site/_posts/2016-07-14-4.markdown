@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "4 / 100"
+date:   2016-06-30 14:26:27 -0700
+categories: day
+---
+
+## Day 4: June 30th 2016
+
+### Today's Progress
+
+#### WebVR
+Just research.
+
+#### Portfolio
+More changes.
+
+### Thoughts
+Finding I need to update my old systems...someone broke my most recent laptop, so I've been using old (very old) gear.
+
+### Link(s) to work
+
+1. [Portfolio](https://www.billimarie.com/portfolio)
+
+===

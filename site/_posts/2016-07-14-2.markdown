@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "2 / 100"
+date:   2016-06-28 14:26:27 -0700
+categories: day
+---
+
+## Projects
+
+- div overlay on full-screen YT video
+- researched YT API
+
+### 360&deg; YouTube Video Embeds + three.js
+Just messing around. Trying to see if there's a way to manipulate the 360 controller. Searched the YT API but it seems like that functionality isn't available, yet. Ideally would like to disable the mousedown / drag function and create a camera that follows mouse movement.
+
+today was a hot day. disheartened over lack of support for 360&deg; functionality (re: YouTube).
+
+### Link(s) to work
+
+- local
