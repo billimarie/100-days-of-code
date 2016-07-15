@@ -15,7 +15,7 @@ To combat the atrophy, I decided join the #100DaysOfCode repo and keep tabs on t
 
 ### Projects
 
-To keep up with the projects I've been working on, visit the [Playground]({{ site.github.url }}/projects) page.
+To keep up with the projects I've been working on, visit the [Playground]({{ site.url }}/projects) page.
 
 ### Acknowledgements
 

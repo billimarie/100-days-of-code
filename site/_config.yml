@@ -10,7 +10,7 @@ title: "#100DaysOfCode - Billimarie Lubiano Robinson"
 email: "work@billimarie.com"
 description: "I'm participating in #100DaysOfCode."
 baseurl: "/site" # the subpath of your site, e.g. /blog
-url: "http://billimarie.github.io/100-days-of-code" # the base hostname & protocol for your site
+url: "https://billimarie.github.io/100-days-of-code" # the base hostname & protocol for your site
 twitter_username: "typewritepoetry"
 github_username:  "billimarie"
 
