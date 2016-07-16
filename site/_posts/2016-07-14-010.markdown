@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "10 / 100"
+title:  "010"
 date:   2016-07-14 14:26:27 -0700
 categories: day
 ---
-
-##Thoughts
 
 After creating a project page for **Spot the Docs**, I decided to make one for the #100DaysOfCode challenge. I chose Jekyll because of its widespread adoption and its reputation for syncing with GitHub.
 
@@ -20,8 +18,6 @@ MkDocs' built-in devserver (`mkdocs serve`) is a lot of fun. Auto-reload! It's l
 Not a fan of Jekyll's, as I have to keep shutting down the server and restart whenever I make config changes...plus it's not instantaneous.
 
 <br />
-
-## Today's Projects
 
 ### Spot the Docs
 
