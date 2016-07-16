@@ -5,15 +5,125 @@
     <description>I&#39;m participating in #100DaysOfCode.</description>
     <link>https://billimarie.github.io/100-days-of-code/site/</link>
     <atom:link href="https://billimarie.github.io/100-days-of-code/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Jul 2016 19:11:23 -0700</pubDate>
-    <lastBuildDate>Thu, 14 Jul 2016 19:11:23 -0700</lastBuildDate>
+    <pubDate>Fri, 15 Jul 2016 22:39:23 -0700</pubDate>
+    <lastBuildDate>Fri, 15 Jul 2016 22:39:23 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>10 / 100</title>
-        <description>&lt;p&gt;##Thoughts&lt;/p&gt;
+        <title>011</title>
+        <description>&lt;p&gt;Mistakes are often made when you don’t know any better.&lt;/p&gt;
 
-&lt;p&gt;After creating a project page for &lt;strong&gt;Spot the Docs&lt;/strong&gt;, I decided to make one for the #100DaysOfCode challenge. I chose Jekyll because of its widespread adoption and its reputation for syncing with GitHub.&lt;/p&gt;
+&lt;div style=&quot;margin: 0 auto; text-align: center&quot;&gt;&lt;img src=&quot;https://img.buzzfeed.com/buzzfeed-static/static/2013-11/enhanced/webdr06/5/15/anigif_enhanced-buzz-28256-1383684408-9.gif&quot; /&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Well. This was my day.&lt;/p&gt;
+
+&lt;p&gt;Exhausted, but I finally perfected the password authentication + various WordPress installations challenge.&lt;/p&gt;
+
+&lt;p&gt;Originally, I used DreamHosts’ &lt;code class=&quot;highlighter-rouge&quot;&gt;Goodies &amp;gt; HTAccess&lt;/code&gt; setup. It took hours before realizing the passwords that were generated were not the same encrypted versions to copy/paste into the &lt;code class=&quot;highlighter-rouge&quot;&gt;.htpasswd&lt;/code&gt; document.&lt;/p&gt;
+
+&lt;p&gt;…lesson learned. A few more:&lt;/p&gt;
+
+&lt;h3 id=&quot;always-look-at-the-log&quot;&gt;Always look at the log&lt;/h3&gt;
+
+&lt;p&gt;If you use DreamHost, you can find the error log by going to &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/USERNAME/logs/WEBSITE/http/error.log&lt;/code&gt;. I would have saved a lot of time if I checked the logs before assuming I could figure out the answer by just pounding my head against the keyboard repeatedly.&lt;/p&gt;
+
+&lt;p&gt;Errors included:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Password Mismatch&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;File does not exist&lt;/code&gt; (lack of error documents)&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;User not found&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Permission denied&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mindful-process-of-elimination&quot;&gt;Mindful process of elimination&lt;/h3&gt;
+
+&lt;p&gt;Instead of eliminating at will and hoping to cycle through the answer (which takes up way too much time), it’s a good idea to carefully consider the what’s and the why’s. While this is obvious, I think a lot of us tend to get caught up in the moment of solving something that we rush toward the answer without thinking too heavily about why certain steps &lt;em&gt;aren’t&lt;/em&gt; the solution.&lt;/p&gt;
+
+&lt;p&gt;Gentle reminders to slow down, actually analyze (rather than running with a potential fix), and remember it for next time.&lt;/p&gt;
+
+&lt;p&gt;The hellish cycle of almost-fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;testing out the password-protected subdirectory&lt;/li&gt;
+  &lt;li&gt;uploading indexes and error files&lt;/li&gt;
+  &lt;li&gt;various stackoverflow answers for the .htaccess files&lt;/li&gt;
+  &lt;li&gt;moving the .htaccess and .htpasswd files around&lt;/li&gt;
+  &lt;li&gt;wait, maybe I should actually install the second WP site&lt;/li&gt;
+  &lt;li&gt;consider symlinks!?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And finally, the solution.&lt;/p&gt;
+
+&lt;p&gt;In &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/username/website/.htaccess&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ErrorDocument 401 default
+
+# BEGIN WordPress
+
+&amp;lt;IfModule mod_rewrite.c&amp;gt;
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+&amp;lt;/IfModule&amp;gt;
+
+# END WordPress
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Remember that the password typed in the DreamHost wizard will look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;username password&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;but in &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/username/website/.htpasswd&lt;/code&gt;, it should look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;username:encrypted-password&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;/home/username/website/subdirectory/.htaccess&lt;/code&gt; should have only one line:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ErrorDocument 401 default
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Reminders for next time.&lt;/p&gt;
+
+&lt;p&gt;The good news is I managed to get the password-protected portal up and running. A client is using it now for creating content.&lt;/p&gt;
+
+&lt;p&gt;Tomorrow I’m going to knock out the WordPress site, &amp;amp; hope for no more missteps.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;password-protected-portal&quot;&gt;password-protected portal&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;.htaccess&lt;/li&gt;
+  &lt;li&gt;.htpasswd&lt;/li&gt;
+  &lt;li&gt;WordPress&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hidden :)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 14 Jul 2016 21:10:00 -0700</pubDate>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/011</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/011</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
+        <title>010</title>
+        <description>&lt;p&gt;After creating a project page for &lt;strong&gt;Spot the Docs&lt;/strong&gt;, I decided to make one for the #100DaysOfCode challenge. I chose Jekyll because of its widespread adoption and its reputation for syncing with GitHub.&lt;/p&gt;
 
 &lt;p&gt;This will be much cleaner than re-editing log.md every so often.&lt;/p&gt;
 
@@ -26,8 +136,6 @@
 &lt;p&gt;Not a fan of Jekyll’s, as I have to keep shutting down the server and restart whenever I make config changes…plus it’s not instantaneous.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;todays-projects&quot;&gt;Today’s Projects&lt;/h2&gt;
 
 &lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
 
@@ -45,8 +153,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 14 Jul 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/10</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/10</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/010</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/010</guid>
         
         
         <category>day</category>
@@ -54,15 +162,12 @@
       </item>
     
       <item>
-        <title>9 / 100</title>
-        <description>&lt;h2 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h2&gt;
-&lt;p&gt;It sucks to get stumped on such simple stuff. I’m studying for the LSAT and there is a definite connect between the type of logic it tests and coding. One wrong misstep can lead down a rabbit hole of bad decisions. Today was that kind of day. But at least I can take steps to see what went wrong, and where.&lt;/p&gt;
+        <title>009</title>
+        <description>&lt;p&gt;It sucks to get stumped on such simple stuff. I’m studying for the LSAT and there is a definite connect between the type of logic it tests and coding. One wrong misstep can lead down a rabbit hole of bad decisions. Today was that kind of day. But at least I can take steps to see what went wrong, and where.&lt;/p&gt;
 
 &lt;p&gt;I’m making the decision to work on the fundamentals. Practice makes perfect…or maybe just less rabbit holes.&lt;/p&gt;
 
 &lt;p&gt;…&amp;amp; when did GitHub update their fonts!? :o&lt;/p&gt;
-
-&lt;h2 id=&quot;todays-projects&quot;&gt;Today’s Projects&lt;/h2&gt;
 
 &lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
 
@@ -79,8 +184,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 13 Jul 2016 11:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/9</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/9</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/009</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/009</guid>
         
         
         <category>day</category>
@@ -88,12 +193,10 @@
       </item>
     
       <item>
-        <title>8 / 100</title>
+        <title>008</title>
         <description>&lt;p&gt;Setting up my dev environment has become a lot easier over the years. I remember when it used to take me an entire day. Guess practice really does make things less burdensome.&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;https://floating-citadel-84168.herokuapp.com&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16829171/6eff1316-494b-11e6-94bb-7f01a90fe1df.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;todays-projects&quot;&gt;Today’s Projects&lt;/h2&gt;
 
 &lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
 &lt;ul&gt;
@@ -101,8 +204,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 12 Jul 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/8</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/8</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/008</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/008</guid>
         
         
         <category>day</category>
@@ -110,16 +213,15 @@
       </item>
     
       <item>
-        <title>7 / 100</title>
+        <title>007</title>
         <description>&lt;p&gt;Laptop is ‘fixed’. Hardware’s good but still having some random shut off issues…thanks, Apple.&lt;/p&gt;
 
 &lt;p&gt;Working on a multimedia poetry project; CSS3 &amp;amp; JS for the titles are finished, plus spacing for the poem itself. Just need to figure out what the main text should do.&lt;/p&gt;
 
-&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
+&lt;h3 id=&quot;css-animations&quot;&gt;CSS Animations&lt;/h3&gt;
 
 &lt;p style=&quot;text-align: center&quot;&gt;&lt;a href=&quot;http://codepen.io/billimarie/pen/wWpvjV&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16830649/0c8d12e6-4955-11e6-8fb5-401bcfe0b089.gif&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;css-animations&quot;&gt;CSS Animations&lt;/h3&gt;
 &lt;p&gt;Inspired by an old poetry collection I wrote called Tetronimoes. Wanted to see if a multimedia poem would be the best fit for a revised edition.
 - multimedia poem
 - shadows, position, &amp;amp; color transitions&lt;/p&gt;
@@ -133,8 +235,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 10 Jul 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/7</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/7</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/007</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/007</guid>
         
         
         <category>day</category>
@@ -142,10 +244,8 @@
       </item>
     
       <item>
-        <title>6 / 100</title>
+        <title>006</title>
         <description>&lt;p&gt;Still waiting for Apple to fix my laptop. The good news is I’ve been getting reacquainted with Windows’ Command Line and Notepad…&lt;/p&gt;
-
-&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
 
 &lt;h3 id=&quot;girl-develop-it&quot;&gt;Girl Develop It&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16677132/11c4ecac-4487-11e6-8721-a719964c22bc.png&quot; alt=&quot;fixed-color-palette&quot; /&gt;&lt;/p&gt;
@@ -173,8 +273,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 07 Jul 2016 12:42:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/6</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/6</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/006</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/006</guid>
         
         
         <category>day</category>
@@ -182,10 +282,8 @@
       </item>
     
       <item>
-        <title>5 / 100</title>
+        <title>005</title>
         <description>&lt;p&gt;Really need my laptop, back. Feeling like a lame duck in the water without my dev environment.&lt;/p&gt;
-
-&lt;h2 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h2&gt;
 
 &lt;h3 id=&quot;pipe-dream-tactics&quot;&gt;Pipe Dream Tactics&lt;/h3&gt;
 &lt;ul&gt;
@@ -202,8 +300,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 02 Jul 2016 14:42:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/5</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/5</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/005</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/005</guid>
         
         
         <category>day</category>
@@ -211,31 +309,26 @@
       </item>
     
       <item>
-        <title>4 / 100</title>
-        <description>&lt;h2 id=&quot;day-4-june-30th-2016&quot;&gt;Day 4: June 30th 2016&lt;/h2&gt;
+        <title>004</title>
+        <description>&lt;p&gt;Finding I need to update my old systems…someone broke my most recent laptop, so I’ve been using old (very old) gear.&lt;/p&gt;
 
-&lt;h3 id=&quot;todays-progress&quot;&gt;Today’s Progress&lt;/h3&gt;
-
-&lt;h4 id=&quot;webvr&quot;&gt;WebVR&lt;/h4&gt;
+&lt;h3 id=&quot;webvr&quot;&gt;WebVR&lt;/h3&gt;
 &lt;p&gt;Just research.&lt;/p&gt;
 
-&lt;h4 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h4&gt;
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
 &lt;p&gt;More changes.&lt;/p&gt;
-
-&lt;h3 id=&quot;thoughts&quot;&gt;Thoughts&lt;/h3&gt;
-&lt;p&gt;Finding I need to update my old systems…someone broke my most recent laptop, so I’ve been using old (very old) gear.&lt;/p&gt;
 
 &lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
 
-&lt;ol&gt;
+&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;===&lt;/p&gt;
 </description>
         <pubDate>Thu, 30 Jun 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/4</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/4</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/004</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/004</guid>
         
         
         <category>day</category>
@@ -243,7 +336,7 @@
       </item>
     
       <item>
-        <title>3 / 100</title>
+        <title>003</title>
         <description>&lt;p&gt;Coding while watching &lt;em&gt;Scandal&lt;/em&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
@@ -261,8 +354,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 29 Jun 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/3</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/3</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/003</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/003</guid>
         
         
         <category>day</category>
@@ -270,18 +363,17 @@
       </item>
     
       <item>
-        <title>2 / 100</title>
-        <description>&lt;h2 id=&quot;projects&quot;&gt;Projects&lt;/h2&gt;
+        <title>002</title>
+        <description>&lt;p&gt;today was a hot day. disheartened over lack of support for 360° functionality (re: YouTube).&lt;/p&gt;
+
+&lt;h3 id=&quot;deg-youtube-video-embeds--threejs&quot;&gt;360° YouTube Video Embeds + three.js&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;div overlay on full-screen YT video&lt;/li&gt;
   &lt;li&gt;researched YT API&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;deg-youtube-video-embeds--threejs&quot;&gt;360° YouTube Video Embeds + three.js&lt;/h3&gt;
 &lt;p&gt;Just messing around. Trying to see if there’s a way to manipulate the 360 controller. Searched the YT API but it seems like that functionality isn’t available, yet. Ideally would like to disable the mousedown / drag function and create a camera that follows mouse movement.&lt;/p&gt;
-
-&lt;p&gt;today was a hot day. disheartened over lack of support for 360° functionality (re: YouTube).&lt;/p&gt;
 
 &lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
 
@@ -290,44 +382,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 28 Jun 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/2</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/2</guid>
-        
-        
-        <category>day</category>
-        
-      </item>
-    
-      <item>
-        <title>1 / 100</title>
-        <description>&lt;p&gt;Now that I’ve got a homebase, it’s nice to be doing work, again. I know the pitfalls of not practicing code; the 100 days idea is great for keeping your skills up when you’re working on other projects. For now, I’m just using this as a way to improve my portfolio and resume, but I’d like to go back to my list of projects to one day build out (including &lt;a href=&quot;http://pipedreamtactics.wordpress.com&quot;&gt;Pipe Dream Tactics&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;new favicon&lt;/li&gt;
-  &lt;li&gt;updated section scroll onclick with &lt;a href=&quot;http://plugins.compzets.com/animatescroll/&quot;&gt;AnimateScroll&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;added &lt;a href=&quot;http://www.billimarie.com/portfolio/doc.html&quot;&gt;100 Days of Code&lt;/a&gt; page&lt;/li&gt;
-  &lt;li&gt;created 100 Days of Code graphic&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;misc&quot;&gt;Misc&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;updated resources on &lt;a href=&quot;https://github.com/Kallaway/100-days-of-code/pull/2&quot;&gt;100 days of code repo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;updated Trello cards&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio/cv.html&quot;&gt;Resume&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 27 Jun 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/1</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/1</guid>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/002</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/002</guid>
         
         
         <category>day</category>

@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>2 / 100</title>
-  <meta name="description" content="Projects">
+  <title>011</title>
+  <meta name="description" content="Mistakes are often made when you don’t know any better.">
 
   <link rel="stylesheet" href="https://billimarie.github.io/100-days-of-code/css/main.css">
-  <link rel="canonical" href="https://billimarie.github.io/100-days-of-code/day/2">
+  <link rel="canonical" href="https://billimarie.github.io/100-days-of-code/day/011">
   <link rel="alternate" type="application/rss+xml" title="#100DaysOfCode - Billimarie Lubiano Robinson" href="https://billimarie.github.io/100-days-of-code/feed.xml">
 </head>
 
@@ -45,6 +45,8 @@
           
         
           
+          <a class="page-link" href="https://billimarie.github.io/100-days-of-code/">100 Days of Code</a>
+          
         
           
         
@@ -65,27 +67,110 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">2 / 100</h1>
-    <p class="post-meta"><time datetime="2016-06-28T14:26:27-07:00" itemprop="datePublished">Jun 28, 2016</time></p>
+    <h1 class="post-title" itemprop="name headline">011</h1>
+    <p class="post-meta"><time datetime="2016-07-14T21:10:00-07:00" itemprop="datePublished">Jul 14, 2016</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="projects">Projects</h2>
+    <p>Mistakes are often made when you don’t know any better.</p>
+
+<div style="margin: 0 auto; text-align: center"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2013-11/enhanced/webdr06/5/15/anigif_enhanced-buzz-28256-1383684408-9.gif" /></div>
+
+<p><br /></p>
+
+<p>Well. This was my day.</p>
+
+<p>Exhausted, but I finally perfected the password authentication + various WordPress installations challenge.</p>
+
+<p>Originally, I used DreamHosts’ <code class="highlighter-rouge">Goodies &gt; HTAccess</code> setup. It took hours before realizing the passwords that were generated were not the same encrypted versions to copy/paste into the <code class="highlighter-rouge">.htpasswd</code> document.</p>
+
+<p>…lesson learned. A few more:</p>
+
+<h3 id="always-look-at-the-log">Always look at the log</h3>
+
+<p>If you use DreamHost, you can find the error log by going to <code class="highlighter-rouge">/home/USERNAME/logs/WEBSITE/http/error.log</code>. I would have saved a lot of time if I checked the logs before assuming I could figure out the answer by just pounding my head against the keyboard repeatedly.</p>
+
+<p>Errors included:</p>
 
 <ul>
-  <li>div overlay on full-screen YT video</li>
-  <li>researched YT API</li>
+  <li><code class="highlighter-rouge">Password Mismatch</code></li>
+  <li><code class="highlighter-rouge">File does not exist</code> (lack of error documents)</li>
+  <li><code class="highlighter-rouge">User not found</code></li>
+  <li><code class="highlighter-rouge">Permission denied</code></li>
 </ul>
 
-<h3 id="deg-youtube-video-embeds--threejs">360° YouTube Video Embeds + three.js</h3>
-<p>Just messing around. Trying to see if there’s a way to manipulate the 360 controller. Searched the YT API but it seems like that functionality isn’t available, yet. Ideally would like to disable the mousedown / drag function and create a camera that follows mouse movement.</p>
+<h3 id="mindful-process-of-elimination">Mindful process of elimination</h3>
 
-<p>today was a hot day. disheartened over lack of support for 360° functionality (re: YouTube).</p>
+<p>Instead of eliminating at will and hoping to cycle through the answer (which takes up way too much time), it’s a good idea to carefully consider the what’s and the why’s. While this is obvious, I think a lot of us tend to get caught up in the moment of solving something that we rush toward the answer without thinking too heavily about why certain steps <em>aren’t</em> the solution.</p>
 
-<h3 id="links-to-work">Link(s) to work</h3>
+<p>Gentle reminders to slow down, actually analyze (rather than running with a potential fix), and remember it for next time.</p>
+
+<p>The hellish cycle of almost-fixes:</p>
 
 <ul>
-  <li>local</li>
+  <li>testing out the password-protected subdirectory</li>
+  <li>uploading indexes and error files</li>
+  <li>various stackoverflow answers for the .htaccess files</li>
+  <li>moving the .htaccess and .htpasswd files around</li>
+  <li>wait, maybe I should actually install the second WP site</li>
+  <li>consider symlinks!?</li>
+</ul>
+
+<p>And finally, the solution.</p>
+
+<p>In <code class="highlighter-rouge">/home/username/website/.htaccess</code>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ErrorDocument 401 default
+
+# BEGIN WordPress
+
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+&lt;/IfModule&gt;
+
+# END WordPress
+</code></pre>
+</div>
+
+<p>Remember that the password typed in the DreamHost wizard will look like this:</p>
+
+<p><code class="highlighter-rouge">username password</code></p>
+
+<p>but in <code class="highlighter-rouge">/home/username/website/.htpasswd</code>, it should look like this:</p>
+
+<p><code class="highlighter-rouge">username:encrypted-password</code></p>
+
+<p>The <code class="highlighter-rouge">/home/username/website/subdirectory/.htaccess</code> should have only one line:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>ErrorDocument 401 default
+</code></pre>
+</div>
+
+<p>Reminders for next time.</p>
+
+<p>The good news is I managed to get the password-protected portal up and running. A client is using it now for creating content.</p>
+
+<p>Tomorrow I’m going to knock out the WordPress site, &amp; hope for no more missteps.</p>
+
+<p><br /></p>
+
+<h3 id="password-protected-portal">password-protected portal</h3>
+
+<ul>
+  <li>.htaccess</li>
+  <li>.htpasswd</li>
+  <li>WordPress</li>
+</ul>
+
+<h3 id="links">Links</h3>
+
+<ul>
+  <li>Hidden :)</li>
 </ul>
 
   </div>
