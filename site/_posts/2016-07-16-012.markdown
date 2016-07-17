@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "012"
+date:   2016-07-16 18:52:31 -0700
+categories: day
+---
+
+Nearly finished with a client's website. And now that I've got all my dev environment woes out of the way, I can resume the mad rush for gigs.
+<div style="margin: 0 auto; padding: 20px 0 25px; text-align: center"><a href="{{ site.github.url }}/day/012/"><img src="https://media.giphy.com/media/sI8yKrHIpQpc4/giphy.gif" /></a></div>
+
+Retaught myself WordPress functions. Fun with WordPress PHP.
+
+I think my favorite part of coding is the coming up with dummy content.
+
+<br />
+
+### Client website
+
+- Built a child theme from Automattic's *[Dyad](https://wordpress.org/themes/dyad/)*
+- Created new responsive CSS behaviors for the header
+- Updated pages, menus, footers, posts
+
+### Links
+
+- TBD

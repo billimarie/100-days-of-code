@@ -6,12 +6,11 @@ categories: day
 ---
 
 Laptop is 'fixed'. Hardware's good but still having some random shut off issues...thanks, Apple.
+<p style="text-align: center"><a href="{{ site.github.url }}/day/007/"><img src="https://cloud.githubusercontent.com/assets/6895471/16830649/0c8d12e6-4955-11e6-8fb5-401bcfe0b089.gif" /></a></p>
 
 Working on a multimedia poetry project; CSS3 & JS for the titles are finished, plus spacing for the poem itself. Just need to figure out what the main text should do.
 
 ### CSS Animations
-
-<p style="text-align: center"><a href="http://codepen.io/billimarie/pen/wWpvjV"><img src="https://cloud.githubusercontent.com/assets/6895471/16830649/0c8d12e6-4955-11e6-8fb5-401bcfe0b089.gif" /></a></p>
 
 Inspired by an old poetry collection I wrote called Tetronimoes. Wanted to see if a multimedia poem would be the best fit for a revised edition.
 - multimedia poem
