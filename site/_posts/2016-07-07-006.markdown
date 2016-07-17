@@ -5,10 +5,10 @@ date:   2016-07-07 12:42:27 -0700
 categories: day
 ---
 
-Still waiting for Apple to fix my laptop. The good news is I've been getting reacquainted with Windows' Command Line and Notepad...
+Still waiting for Apple to fix my laptop. The good news is I've been getting reacquainted with Windows' Command Line and Notepad. Now onto Girl Develop It fixes.
+<div style="text-align: center;"><a href="{{ site.github.url }}/day/006/"><img src="https://cloud.githubusercontent.com/assets/6895471/16677132/11c4ecac-4487-11e6-8721-a719964c22bc.png" /></a></div>
 
 ### Girl Develop It
-![fixed-color-palette](https://cloud.githubusercontent.com/assets/6895471/16677132/11c4ecac-4487-11e6-8721-a719964c22bc.png)
 
 Worked on an issue with the [Girl Develop It](https://github.com/girldevelopit) website style guide [repo](https://github.com/girldevelopit/gdi-website-styleguide):
 
