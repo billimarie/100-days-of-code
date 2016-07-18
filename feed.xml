@@ -5,14 +5,63 @@
     <description>I&#39;m participating in #100DaysOfCode.</description>
     <link>https://billimarie.github.io/100-days-of-code/site/</link>
     <atom:link href="https://billimarie.github.io/100-days-of-code/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jul 2016 19:12:37 -0700</pubDate>
-    <lastBuildDate>Sat, 16 Jul 2016 19:12:37 -0700</lastBuildDate>
+    <pubDate>Sun, 17 Jul 2016 20:16:30 -0700</pubDate>
+    <lastBuildDate>Sun, 17 Jul 2016 20:16:30 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>013</title>
+        <description>&lt;p&gt;A productive Sunday. Knocked some issues out, with love.&lt;/p&gt;
+&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/013&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16905383/04a3edb8-4c5a-11e6-8b8b-be5ea87296ac.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;updated pages, content&lt;/li&gt;
+  &lt;li&gt;updated styles&lt;/li&gt;
+  &lt;li&gt;fixed repo title issue
+    &lt;ul&gt;
+      &lt;li&gt;implemented JS functionality for repoName and repoURL for corresponding issues&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;updated docs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;client-website&quot;&gt;Client website&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;solved theme functionality bugs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;updated portfolio images, links&lt;/li&gt;
+  &lt;li&gt;subtle redesigns&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/billimarie/spot-the-docs&quot;&gt;Spot the Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 17 Jul 2016 19:57:59 -0700</pubDate>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/013</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/013</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
     
       <item>
         <title>012</title>
         <description>&lt;p&gt;Nearly finished with a client’s website. And now that I’ve got all my dev environment woes out of the way, I can resume the mad rush for gigs.&lt;/p&gt;
-&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/012/&quot;&gt;&lt;img src=&quot;https://media.giphy.com/media/sI8yKrHIpQpc4/giphy.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/012&quot;&gt;&lt;img src=&quot;https://media.giphy.com/media/sI8yKrHIpQpc4/giphy.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;p&gt;Retaught myself WordPress functions. Fun with WordPress PHP.&lt;/p&gt;
 
@@ -46,7 +95,7 @@
       <item>
         <title>011</title>
         <description>&lt;p&gt;Mistakes are often made when you don’t know any better.&lt;/p&gt;
-&lt;div style=&quot;margin: 0 auto; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/011/&quot;&gt;&lt;img src=&quot;https://img.buzzfeed.com/buzzfeed-static/static/2013-11/enhanced/webdr06/5/15/anigif_enhanced-buzz-28256-1383684408-9.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div style=&quot;margin: 0 auto; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/011&quot;&gt;&lt;img src=&quot;https://img.buzzfeed.com/buzzfeed-static/static/2013-11/enhanced/webdr06/5/15/anigif_enhanced-buzz-28256-1383684408-9.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -379,33 +428,6 @@ require valid-user
         <pubDate>Thu, 30 Jun 2016 14:26:27 -0700</pubDate>
         <link>https://billimarie.github.io/100-days-of-code/site/day/004</link>
         <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/004</guid>
-        
-        
-        <category>day</category>
-        
-      </item>
-    
-      <item>
-        <title>003</title>
-        <description>&lt;p&gt;Coding while watching &lt;em&gt;Scandal&lt;/em&gt;.&lt;/p&gt;
-
-&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;avatar animation (css)&lt;/li&gt;
-  &lt;li&gt;button changes&lt;/li&gt;
-  &lt;li&gt;design: color scheme&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 29 Jun 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/003</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/003</guid>
         
         
         <category>day</category>
