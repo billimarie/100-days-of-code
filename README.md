@@ -1,4 +1,4 @@
-# I've joined the #100DaysOfCode Challenge.
+# Day 14 of the #100DaysOfCode Challenge
 
 View my progress at [#100DaysOfCode: GitHub Pages](https://billimarie.github.io/100-days-of-code)
 
@@ -16,6 +16,8 @@ View my progress at [#100DaysOfCode: GitHub Pages](https://billimarie.github.io/
 * [Log](log.md)
 * [FAQ](FAQ.md)
 * [Resources](resources.md)
+
+---
 
 ## If you've decided to join:
 1. Read [Join the #100DaysOfCode](https://medium.freecodecamp.com/join-the-100daysofcode-556ddb4579e4)
