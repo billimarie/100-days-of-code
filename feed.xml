@@ -5,9 +5,54 @@
     <description>I&#39;m participating in #100DaysOfCode.</description>
     <link>https://billimarie.github.io/100-days-of-code/site/</link>
     <atom:link href="https://billimarie.github.io/100-days-of-code/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Jul 2016 20:16:30 -0700</pubDate>
-    <lastBuildDate>Sun, 17 Jul 2016 20:16:30 -0700</lastBuildDate>
+    <pubDate>Mon, 18 Jul 2016 20:41:46 -0700</pubDate>
+    <lastBuildDate>Mon, 18 Jul 2016 20:41:46 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>014</title>
+        <description>&lt;p&gt;Found a few open issues through the &lt;a href=&quot;http://floating-citadel-84168.herokuapp.com/&quot;&gt;Spot the Docs&lt;/a&gt; app. The Girl Develop It website came up; I fixed some documentation issues and submitted a PR request that was accepted. Here’s to seeing the changes go live!&lt;/p&gt;
+&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/014&quot;&gt;&lt;img src=&quot;http://www.reactiongifs.com/wp-content/uploads/2013/12/partying.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;girl-develop-it&quot;&gt;Girl Develop It&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;updated ReadTheDocs &amp;gt; Installation (Website) with the new Vagrant install information&lt;/li&gt;
+  &lt;li&gt;updated the mkdocs.yml page configuration&lt;/li&gt;
+  &lt;li&gt;personal notes of other noticaeble issues&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/013&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16906635/e05837fa-4c6f-11e6-813c-f5b6875b4d3d.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;compressed pngs for speed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;spot-the-docs&quot;&gt;Spot the Docs&lt;/h3&gt;
+
+&lt;p&gt;Not code but I spotted this in the wild and it made me very happy 😸&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16937357/11a89fda-4d23-11e6-9cb2-80185c5d827a.png&quot; alt=&quot;screen shot 2016-07-17 at 8 25 33 pm&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/girldevelopit/gdi-website/pull/475&quot;&gt;Girl Develop It (GitHub)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 18 Jul 2016 13:20:25 -0700</pubDate>
+        <link>https://billimarie.github.io/100-days-of-code/site/day/014</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/014</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
     
       <item>
         <title>013</title>
@@ -403,31 +448,6 @@ require valid-user
         <pubDate>Sat, 02 Jul 2016 14:42:27 -0700</pubDate>
         <link>https://billimarie.github.io/100-days-of-code/site/day/005</link>
         <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/005</guid>
-        
-        
-        <category>day</category>
-        
-      </item>
-    
-      <item>
-        <title>004</title>
-        <description>&lt;p&gt;Finding I need to update my old systems…someone broke my most recent laptop, so I’ve been using old (very old) gear.&lt;/p&gt;
-
-&lt;h3 id=&quot;webvr&quot;&gt;WebVR&lt;/h3&gt;
-&lt;p&gt;Just research.&lt;/p&gt;
-
-&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
-&lt;p&gt;More changes.&lt;/p&gt;
-
-&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 30 Jun 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/004</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/004</guid>
         
         
         <category>day</category>
