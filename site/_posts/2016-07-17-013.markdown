@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "013"
+date:   2016-07-17 19:57:59 -0700
+categories: day
+---
+
+A productive Sunday. Knocked some issues out, with love.
+<div style="margin: 0 auto; padding: 20px 0 25px; text-align: center"><a href="{{ site.github.url }}/day/013"><img src="https://cloud.githubusercontent.com/assets/6895471/16905383/04a3edb8-4c5a-11e6-8b8b-be5ea87296ac.gif" /></a></div>
+
+<br />
+
+### Spot the Docs
+
+- updated pages, content
+- updated styles
+- fixed repo title issue
+  * implemented JS functionality for repoName and repoURL for corresponding issues
+- updated docs
+
+### Client website
+
+- solved theme functionality bugs
+
+### Portfolio
+
+- updated portfolio images, links
+- subtle redesigns
+
+### Links
+
+- [Spot the Docs](https://github.com/billimarie/spot-the-docs)
+- [Portfolio](http://www.billimarie.com/portfolio)

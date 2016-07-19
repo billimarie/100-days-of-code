@@ -6,7 +6,7 @@ categories: day
 ---
 
 Nearly finished with a client's website. And now that I've got all my dev environment woes out of the way, I can resume the mad rush for gigs.
-<div style="margin: 0 auto; padding: 20px 0 25px; text-align: center"><a href="{{ site.github.url }}/day/012/"><img src="https://media.giphy.com/media/sI8yKrHIpQpc4/giphy.gif" /></a></div>
+<div style="margin: 0 auto; padding: 20px 0 25px; text-align: center"><a href="{{ site.github.url }}/day/012"><img src="https://media.giphy.com/media/sI8yKrHIpQpc4/giphy.gif" /></a></div>
 
 Retaught myself WordPress functions. Fun with WordPress PHP.
 
