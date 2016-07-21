@@ -3,16 +3,43 @@
   <channel>
     <title>#100DaysOfCode - Billimarie Lubiano Robinson</title>
     <description>I&#39;m participating in #100DaysOfCode.</description>
-    <link>https://billimarie.github.io/100-days-of-code/site/</link>
-    <atom:link href="https://billimarie.github.io/100-days-of-code/site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Jul 2016 20:41:46 -0700</pubDate>
-    <lastBuildDate>Mon, 18 Jul 2016 20:41:46 -0700</lastBuildDate>
+    <link>https://billimarie.github.io/100-days-of-code//</link>
+    <atom:link href="https://billimarie.github.io/100-days-of-code//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 21 Jul 2016 11:59:35 -0700</pubDate>
+    <lastBuildDate>Thu, 21 Jul 2016 11:59:35 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
+        <title>015</title>
+        <description>&lt;p&gt;Light coding &amp;amp; relaxing by the beach. Nothing serious; just slight portfolio changes.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;new centering class for columns of three&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 21 Jul 2016 11:18:49 -0700</pubDate>
+        <link>https://billimarie.github.io/100-days-of-code//day/015</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/015</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
+    
+      <item>
         <title>014</title>
-        <description>&lt;p&gt;Found a few open issues through the &lt;a href=&quot;http://floating-citadel-84168.herokuapp.com/&quot;&gt;Spot the Docs&lt;/a&gt; app. The Girl Develop It website came up; I fixed some documentation issues and submitted a PR request that was accepted. Here’s to seeing the changes go live!&lt;/p&gt;
-&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/014&quot;&gt;&lt;img src=&quot;http://www.reactiongifs.com/wp-content/uploads/2013/12/partying.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+        <description>&lt;p&gt;Found a few open issues through the &lt;a href=&quot;https://floating-citadel-84168.herokuapp.com/&quot;&gt;Spot the Docs&lt;/a&gt; app (be patient; it takes a while to wake up since it’s running on Heroku’s free tier). The Girl Develop It website came up; I fixed some documentation issues and submitted a PR request that was accepted. Here’s to seeing the changes go live!&lt;/p&gt;
+&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/014&quot;&gt;&lt;img src=&quot;https://www.reactiongifs.com/wp-content/uploads/2013/12/partying.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -21,7 +48,7 @@
 &lt;ul&gt;
   &lt;li&gt;updated ReadTheDocs &amp;gt; Installation (Website) with the new Vagrant install information&lt;/li&gt;
   &lt;li&gt;updated the mkdocs.yml page configuration&lt;/li&gt;
-  &lt;li&gt;personal notes of other noticaeble issues&lt;/li&gt;
+  &lt;li&gt;personal notes of other noticeable issues&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/013&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16906635/e05837fa-4c6f-11e6-813c-f5b6875b4d3d.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
@@ -46,8 +73,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 18 Jul 2016 13:20:25 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/014</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/014</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/014</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/014</guid>
         
         
         <category>day</category>
@@ -95,8 +122,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 17 Jul 2016 19:57:59 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/013</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/013</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/013</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/013</guid>
         
         
         <category>day</category>
@@ -129,8 +156,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 16 Jul 2016 18:52:31 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/012</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/012</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/012</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/012</guid>
         
         
         <category>day</category>
@@ -260,8 +287,8 @@ require valid-user
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 15 Jul 2016 21:10:00 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/011</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/011</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/011</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/011</guid>
         
         
         <category>day</category>
@@ -300,8 +327,8 @@ require valid-user
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 14 Jul 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/010</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/010</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/010</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/010</guid>
         
         
         <category>day</category>
@@ -331,8 +358,8 @@ require valid-user
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 13 Jul 2016 11:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/009</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/009</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/009</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/009</guid>
         
         
         <category>day</category>
@@ -351,8 +378,8 @@ require valid-user
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 12 Jul 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/008</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/008</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/008</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/008</guid>
         
         
         <category>day</category>
@@ -381,8 +408,8 @@ require valid-user
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 10 Jul 2016 14:26:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/007</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/007</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/007</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/007</guid>
         
         
         <category>day</category>
@@ -419,35 +446,8 @@ require valid-user
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 07 Jul 2016 12:42:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/006</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/006</guid>
-        
-        
-        <category>day</category>
-        
-      </item>
-    
-      <item>
-        <title>005</title>
-        <description>&lt;p&gt;Really need my laptop, back. Feeling like a lame duck in the water without my dev environment.&lt;/p&gt;
-
-&lt;h3 id=&quot;pipe-dream-tactics&quot;&gt;Pipe Dream Tactics&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;heroku / github setup&lt;/li&gt;
-  &lt;li&gt;markdown&lt;/li&gt;
-  &lt;li&gt;css&lt;/li&gt;
-  &lt;li&gt;restructuring &amp;amp; reorganizing project goals&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://calm-wildwood-8850.herokuapp.com/about&quot;&gt;Pipe Dream Tactics&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 02 Jul 2016 14:42:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code/site/day/005</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code/site/day/005</guid>
+        <link>https://billimarie.github.io/100-days-of-code//day/006</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/006</guid>
         
         
         <category>day</category>
