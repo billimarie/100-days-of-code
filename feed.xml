@@ -5,9 +5,42 @@
     <description>I&#39;m participating in #100DaysOfCode.</description>
     <link>https://billimarie.github.io/100-days-of-code//</link>
     <atom:link href="https://billimarie.github.io/100-days-of-code//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 Jul 2016 11:59:35 -0700</pubDate>
-    <lastBuildDate>Thu, 21 Jul 2016 11:59:35 -0700</lastBuildDate>
+    <pubDate>Fri, 22 Jul 2016 12:16:41 -0700</pubDate>
+    <lastBuildDate>Fri, 22 Jul 2016 12:16:41 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>016</title>
+        <description>&lt;p&gt;Installed NPM and Gulp into my portfolio project.&lt;/p&gt;
+&lt;div style=&quot;margin: 0 auto; padding: 20px 0 25px; text-align: center&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/016&quot;&gt;&lt;img src=&quot;https://66.media.tumblr.com/ba2c5b0da35ac1aefc29575a07994242/tumblr_o7c5s6hel11udh5n8o1_540.gif&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;NPM&lt;/li&gt;
+  &lt;li&gt;gulp: plugins, gulpfile
+    &lt;ul&gt;
+      &lt;li&gt;compiled css&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 22 Jul 2016 12:04:15 -0700</pubDate>
+        <link>https://billimarie.github.io/100-days-of-code//day/016</link>
+        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/016</guid>
+        
+        
+        <category>day</category>
+        
+      </item>
     
       <item>
         <title>015</title>
@@ -410,44 +443,6 @@ require valid-user
         <pubDate>Sun, 10 Jul 2016 14:26:27 -0700</pubDate>
         <link>https://billimarie.github.io/100-days-of-code//day/007</link>
         <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/007</guid>
-        
-        
-        <category>day</category>
-        
-      </item>
-    
-      <item>
-        <title>006</title>
-        <description>&lt;p&gt;Still waiting for Apple to fix my laptop. The good news is I’ve been getting reacquainted with Windows’ Command Line and Notepad. Now onto Girl Develop It fixes.&lt;/p&gt;
-&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://billimarie.github.io/100-days-of-code/day/006/&quot;&gt;&lt;img src=&quot;https://cloud.githubusercontent.com/assets/6895471/16677132/11c4ecac-4487-11e6-8721-a719964c22bc.png&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;girl-develop-it&quot;&gt;Girl Develop It&lt;/h3&gt;
-
-&lt;p&gt;Worked on an issue with the &lt;a href=&quot;https://github.com/girldevelopit&quot;&gt;Girl Develop It&lt;/a&gt; website style guide &lt;a href=&quot;https://github.com/girldevelopit/gdi-website-styleguide&quot;&gt;repo&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797&quot;&gt;fixed color palette&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;portfolio&quot;&gt;Portfolio&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;updated the Pipe Dream Tactics page&lt;/li&gt;
-  &lt;li&gt;fixed scrolling links on cv.html&lt;/li&gt;
-  &lt;li&gt;updated css, text, images&lt;/li&gt;
-  &lt;li&gt;updated Typewriter Poetry section&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;links-to-work&quot;&gt;Link(s) to work&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/girldevelopit/gdi-website-styleguide/issues/2#issuecomment-231270797&quot;&gt;Girl Develop It&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.billimarie.com/portfolio&quot;&gt;Portfolio&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 07 Jul 2016 12:42:27 -0700</pubDate>
-        <link>https://billimarie.github.io/100-days-of-code//day/006</link>
-        <guid isPermaLink="true">https://billimarie.github.io/100-days-of-code//day/006</guid>
         
         
         <category>day</category>
