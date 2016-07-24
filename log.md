@@ -18,4 +18,3 @@ My [#100DaysOfCode](https://billimarie.github.io/100-days-of-code) logs have mig
 # [Day 14](https://billimarie.github.io/100-days-of-code/day/014)
 # [Day 15](https://billimarie.github.io/100-days-of-code/day/015)
 # [Day 16](https://billimarie.github.io/100-days-of-code/day/016)
-# [Day 17](https://billimarie.github.io/100-days-of-code/day/017)
