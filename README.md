@@ -1,4 +1,4 @@
-# Day 16 of the #100DaysOfCode Challenge
+# Day 17 of the #100DaysOfCode Challenge
 
 View my progress at [#100DaysOfCode: GitHub Pages](https://billimarie.github.io/100-days-of-code)
 
